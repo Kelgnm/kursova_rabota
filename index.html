@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="background"></div>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <a href="#">Моят Магазин</a>
+            </div>
+            <ul class="navigation">
+                <li><a href="index.html">Начало</a></li>
+                <li><a href="#products">Продукти</a></li>
+                <li><a href="#news">Новини</a></li>
+                <li><a href="#contact">Контакти</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div id="hero-slider">
+        <div class="slide slider1">
+        <h1>Добре дошли в моят магазин</h1>
+        </div>
+    </div>
+
+    <section id="products" class="container">
+        <h2 style="text-align: center; margin: 20px 0;">Препоръчани Продукти</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <a href="cod.html"><img src="images/cod.png" class="product-image"></a>
+                <h3>Call Of Duty Black Ops 6</h3>
+                <p>Forced to go rogue. Hunted from within. This is Call of Duty®: Black Ops 6.
+                    <br> <br>
+                    The Black Ops 6 Campaign provides dynamic moment-to-moment gameplay that includes a variety of play spaces with blockbuster set pieces and action-packed moments, high-stakes heists, and cloak-and-dagger spy activity.
+                    <br> <br>
+                    In a best-in-class Multiplayer experience, players will test their skills across 16 new maps, including 12 core 6v6 maps and 4 Strike maps that can be played 2v2 or 6v6.</p>
+            </div>
+            <div class="product-card">
+                <a href="wukong.html"><img src="images/wukong.png" class="product-image"></a>
+                <h3>Black Myth Wukong</h3>
+                <p>Black Myth: Wukong is an action RPG rooted in Chinese mythology. The story is based on Journey to the West, one of the Four Great Classical Novels of Chinese literature. You shall set out as the Destined One to venture into the challenges and marvels ahead, to uncover the obscured truth beneath the veil of a glorious legend from the past.</p>
+            </div>
+            <div class="product-card">
+                <a href="helldivers2.html"><img src="images/helldivers.avif" class="product-image"></a>
+                <h3>Helldivers 2</h3>
+                <p>HELLDIVERS™ 2 is a 3rd person squad-based shooter that sees the elite forces of the Helldivers battling to win an intergalactic struggle to rid the galaxy of the rising alien threats. From a 3rd person perspective, players use a variety of weapons (pistols, machine guns, flamethrowers) and stratagems (turrets, airstrikes, etc.) to shoot and kill the alien threats. Players can also aim down the sights for a more accurate 1st person camera view. Combat is accompanied by frequent sprays of blood and dismemberment as players exterminate the alien forces or players and squad mates are hit by environmental explosions or friendly fire. Enemy encampments and battlefield environments depict bloodstains and dismembered corpses.</p>
+            </div>
+        </div>
+        <div class="product-grid">
+            <div class="product-card">
+                <a href="marines.html"><img src="images/space marine 2.webp" class="product-image"></a>
+                <h3>Warhammer 40k Space Marine 2</h3>
+                <p>Embody the superhuman skill and brutality of a Space Marine. Unleash deadly abilities and devastating weaponry to obliterate the relentless Tyranid swarms. Defend the Imperium in spectacular third-person action in solo or multiplayer modes.</p>
+            </div>
+            <div class="product-card">
+                <a href="space.html"><img src="images/dead space.avif" class="product-image"></a>
+                <h3>Dead Space</h3>
+                <p>The sci-fi survival-horror classic Dead Space™ returns, completely rebuilt from the ground up to offer a deeper, more immersive experience. This remake brings jaw-dropping visual fidelity, suspenseful atmospheric audio, and improvements to gameplay while staying faithful to the original game’s thrilling vision.
+                </p>
+            </div>
+            <div class="product-card">
+                <a href="eldenring.html"><img src="images/elden ring.jpg" class="product-image"></a>
+                <h3>Elden Ring</h3>
+                <p>Elden Ring is an action-adventure game set in a vast and dark world. The story around this game has you playing as a main protagonist whose goal is to protect a world where humanity is losing its faith in myths and legends. Similar to our first game review, Elden Ring features an open-world setting.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="news" class="news">
+        <div class="news-filters">
+            <button class="news-filter active" data-category="all">Всички</button>
+            <button class="news-filter" data-category="events">Събития</button>
+            <button class="news-filter" data-category="updates">Обновления</button>
+            <button class="news-filter" data-category="promotions">Промоции</button>
+        </div>
+    
+        <div class="news-item" data-category="promotions">
+            <div class="news-thumbnail" style="background-image: url('images/winter.jpg');"></div>
+            <div class="news-content">
+                <a href="https://store.steampowered.com/"><h3>Зимен фестивал започна!</h3></a>
+                <p>Коледните оферти са тук! КУПУВАЙТЕ!!</p>
+                <span class="news-date">29 декември 2024</span>
+            </div>
+        </div>
+    
+        <div class="news-item" data-category="events">
+            <div class="news-thumbnail" style="background-image: url('images/Space-Marine-2-logo.jpg');"></div>
+            <div class="news-content">
+                <a href="https://store.steampowered.com/news/app/2183900?emclan=103582791472836704&emgid=500560232665055477"><h3>Warhammer 40k Space Marine 2</h3></a>
+                <p>Over 20 million copies bought!</p>
+                <span class="news-date">27 декември 2024</span>
+            </div>
+        </div>
+
+        <div class="news-item" data-category="events">
+            <div class="news-thumbnail" style="background-image: url('images/helldivers2.webp');"></div>
+            <div class="news-content">
+                <a href="https://store.steampowered.com/app/553850/HELLDIVERS_2/"><h3>Helldivers 2</h3></a>
+                <p>The Illuminate Return
+                   Missing for almost a century, the Illuminate will challenge our recruits more than the other factions they have faced. They are advanced, highly-intelligent beings wielding powerful technology that appears to average citizens like a kind of dark magic.</p>
+                <span class="news-date">24 декември 2024</span>
+            </div>
+        </div>
+    
+        <div class="news-item" data-category="updates">
+            <div class="news-thumbnail" style="background-image: url('images/ELDEN-RING-Nightreign-KEYART_Logo.webp');"></div>
+            <div class="news-content">
+                <a href="https://store.steampowered.com/app/2622380/ELDEN_RING_NIGHTREIGN/"><h3>Elden Ring Nightreign</h3></a>
+                <p>ELDEN RING NIGHTREIGN is a standalone adventure within the ELDEN RING universe, crafted to bring a new gaming experience.
+                Join forces with other players to take on the creeping night and the dangers within featuring 3-player co-op, uniquely skilled champions, and relentless threats.</p>
+                <span class="news-date">30 декември 2024</span>
+            </div>
+        </div>
+
+        <div class="news-item" data-category="updates">
+            <div class="news-thumbnail" style="background-image: url('images/witcher.jpg');"></div>
+            <div class="news-content">
+                <a href="https://www.thewitcher.com/us/en/witcher4"><h3>Witcher 4</h3></a>
+                <p>A New Saga begins with a new witcher from the Lynx school which was found in 1273 by Joel Gaetan. The story will most likely feature the Origins or Nilfgaardian soldiers and The new witcher game will no longer feature Geralt of Rivia nor Ciri or any other character we've played as and seen in the prev</p>
+                <span class="news-date">17 декември 2024</span>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+
+    <section id="contact" style="text-align: center; padding: 20px;">
+        <h2>Свържете се с нас</h2>
+        <p>Email: 124327@students.ue-varna.bg | Телефон: +359 88 490 1150</p>
+    </section>
+    
+    <footer>
+        <div>
+            © 2025 Моят Магазин. Всички права запазени.
+            <div class="footer-links">
+                <a href="#home">Начало</a> | <a href="#products">Продукти</a> | <a href="#news">Новини</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
